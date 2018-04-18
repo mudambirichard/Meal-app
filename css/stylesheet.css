@@ -87,7 +87,7 @@
 .food img{
 	width: 250px;
 	height: 270px;
-	transition: all 4s;
+	transition: all 4s ease;
 }
 
 .food:hover img{
@@ -140,7 +140,7 @@
 	   height: auto;
 	   background-color: black;
 	   float: left;
-	   padding-bottom: 25px;
+	   padding-bottom: 20px;
 	   padding-top: 25px;
 	   color: white;
 }
