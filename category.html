@@ -1,12 +1,12 @@
 <!doctype html>
 <html>
 <head>
-	<title>register form</title>
-	<link rel="stylesheet" type="text/css" href=" css/stylesheet.css">
+	<title>category page</title>
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
 
-   <!--navbar-->
+ <!--navbar-->
    <div class="navbar">
    <div class="bad">
       <a href="login.html">login</a>
@@ -17,39 +17,27 @@
      <a class="active" href="index.html">Home</a>
      </div>  
     </div>
+   	<!--navbar-->
 
-      <!--======================register========================-->
-  <form action="action_page.php">
-   <div id ="container">
-    <h2>Register</h2>
-    <p>Please fill this form to create an account.</p>
+<div class="richard">
+
+<form action="action_page.php">
+  <div id ="container">
+    <h2>Categories</h2>
     <hr>
-     <label for="Fullname"><b>Fullname</b></label>
-    <input type="text" placeholder="Enter Your Fullname" name="Email" required>
+  
+   <label for="category name"><b>Category name</b></label><br><br>
+    <input type="text" placeholder="Enter Your category name" name="Category" required><br><br>
 
-    <label for="Email"><b>Email</b></label>
-    <input type="text" placeholder="Enter Your Email" name="Email" required>
-   	
-     <label for="Password"><b>Password</b></label>
-    <input type="password" placeholder="Repeat Your Password" name="psw" required>
 
-    <label for="psw-repeat"><b>Email</b></label>
-    <input type="password" placeholder="Repeat Your Password" name="psw-repeat" required>
+     <button type="submit" class="postbtn">Create category</button>
 
-    <hr>
-
-     <button type="submit" class="registerbtn">Register</button>
-   </div>
-
-   <div class="container signin">
-    <P>Already have an account please<a href="login.html">Sign in</a></P>
-   	
-   </div>
-  	
-  </form>
-
-     <!--======================register========================-->
-
+    </div>
+	
+</form>
+</div>
+	
+</div>
 
 <!--footer goes here-->
 
@@ -89,5 +77,6 @@
      
    </div> 
 <!--footer goes here--> 
+
 </body>
 </html>
