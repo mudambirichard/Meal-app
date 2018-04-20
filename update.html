@@ -1,7 +1,7 @@
 <!doctype html>
-
+<html>
 <head>
-	<title>login page</title>
+	<title>post page</title>
 	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 <body>
@@ -10,40 +10,45 @@
    <div class="navbar">
    <div class="bad">
       <a href="login.html">login</a>
-      <a href="show.html">show  meals</a>
-      <a href="update.html">update</a>
      <a href="register.html">Register</a>
-     <a href="post.html">Post meal</a>
-      <a href="cotegory.html">Catergories</a>
+     <a href="update.html">update</a>
+     <a href="show.html">show  meals</a>
+      <a href="post.html">Post meal</a>
+      <a href="category.html">Catergories</a>
      <a class="active" href="index.html">Home</a>
      </div>  
     </div>
    	<!--navbar-->
-<!--==============log in page====================-->
-<form action="action-page.php">
- <div id ="container">
-    <h2>login</h2>
- </div>
 
-<div class="top">
- <label for="uname"><b>Username</b></label>
- <input  type="text" placeholder="Enter You Username" name="photos" required>
-	
-  <label for="psw"><b>Password</b></label>
- <input type="password" placeholder="Enter You Password" name="psw" required>
+  <div class="container">
+   <form action="action_page.php">
+    <label for="title">Title</label><br><br>
+    <select>
+    <option value="Beef and Rice">Beef and Rice</option>
+     <option value="Meat and Banana"> Meat and Banana</option>
+     <option value="Irish Potato">Irish Potato</option>
+      <option value="Hot Tea">Hot Tea</option>
+      <option value="Warm subs">Warm soup</option>
+      <option value="Hot soup">Hot soup</option>
+     <option value="Pork">Pork</option>
+     <option value="Fruits">Fruits</option>
+     <option value="Beans and Chapat">Beans and Chapat</option>
+     <option value="Vegatables">Vegatables</option>
+     <option value="Hot soup and millet">Hot soup and millet</option>
+ </select>
 
-  <hr>
+   	<label for="price">Price</label>
+    <input type="number" id="price" name="price" placeholder="Your  price"><br><br>
 
-    <p>By sigin you agree to our <a href="#">Terms & privacy</a></p>
-    <button type="submit" class="registerbtn">login</button>
-    
-    
-</div>
-</form>
-  <div class="container signin">
-    <P>If you don't have an account please<a href="register.html">login</a></P>
-   	
-   </div>
+
+     <label for="description">Description</label>
+    <textarea id="description" name="description" placeholder="Write something.." style="height:200px; width: 100%;"></textarea>
+
+    <label for="text">Meal photo</label><br><br>
+    <input type="file" value="post">
+   </form>
+  	
+  </div>
 
 
 <!--footer goes here-->
@@ -85,15 +90,6 @@
    </div> 
 <!--footer goes here--> 
 
-
-  
-
- 
-
-
-     
-   
-<!--footer goes here--> 
 
 </body>
 </html>
