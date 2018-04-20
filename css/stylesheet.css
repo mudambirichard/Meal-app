@@ -25,9 +25,10 @@
 
 #search{
 	 text-align: center;
-	 font-size: 25px;
+	 font-size: 20px;
 	 font-family: verdana;
-	
+	padding-right: 300px;
+	padding-left: 300px;
 	  padding-top: 5px;
 	   padding-bottom: 5px;
 
@@ -40,19 +41,21 @@
 	   color: white;
 	   background: black;
 	   border-radius:10px;
-	   padding-left: 10px;
+	   padding-right: : 20px;
 	   font-weight: bold;
 
 }
 
 .search-t{
-	   width: 90px;
-	   height: 50px;
-	   border: none;
-	   color:white;
-	   background: brown;
-	   border-radius:10px;
-	   margin-left: -100px;
+	        width: 95px;
+  	      height: 50px;
+  	      float: left;
+  	      border-radius: 10px;
+  	      border:none;
+  	      background-color: brown;
+  	      margin-left:-100px;
+  	      color: white;
+
    }
 
 
@@ -140,23 +143,25 @@
 	   height: auto;
 	   background-color: black;
 	   float: left;
-	   padding-bottom: 20px;
-	   padding-top: 25px;
+	   padding-bottom: 10px;
+	   padding-top: 20px;
 	   color: white;
 }
 
 
 
 .footer-description{
-	  width: 20%;
+	  width: 25%;
 	  float: left;
 	  padding-left: 100px;
+	 
+	 
 
 }
 
-.footer-link{ width: 20%;
+.footer-link{ width: 25%;
 	         float: left;
-	         padding-left: 100px;
+	        
   
 }
 
@@ -177,10 +182,11 @@
 .footer-search{
 	         width: 25%;
 	         float:left;
-              padding-left: 100px;
+	         padding-right:  50px;
+              
 }
 
-.subs{  width: 300px;
+.subs{  
         height: 50px;
         width: 300px;
         height: 45px;
@@ -191,24 +197,73 @@
 
            }
 
-  .subs-btn{
-  	      width: 100px;
-  	      height: 50px;
-  	      float: left;
-  	      border-radius: 10px;
-  	      border:none;
-  	      background-color: brown;
-  	      margin-left:-100px;
-  	      color: white;
-
-  }
-
 .subs{
 	 color: white;
 	 font-size: 15px;
 	 font-style: italic;
 }
+ 
+ /*================starting register styling================*/
+
+ {
+ 	box-sizing: border-box;
+ }
+#container{
+	  padding: 16px;
+	  padding-right: 400px;
+	  padding-left: 400px;
+}
 
 
+input[type=text], input[type=password]{
+	     width: 100%;
+	     padding: 15px;
+	     margin: 5px 0 22px 0;
+	     display: inline-block;
+	     border: none;
+	     background-color: #f1f1f1;
+}
+
+input[type=text]:focus , input [type=password]:focus{
+	        background-color: #ddd;
+	        outline: none;
+}
+
+hr{
+	border: 1px solid #f1f1f1;
+	margin-bottom: 25px;
+}
+
+.registerbtn{
+	   background-color: black;
+	   color: white;
+	   padding: 16px  20px;
+	   margin: 8px 0;
+	   border: none;
+	   cursor: pointer;
+	   width: 100%;
+	   opacity: 0.9;
+
+}
 
 
+.registerbtn:hover{
+	          opacity: 1;
+}
+
+a{
+	color: dodgerblue;
+}
+.signin{
+	 background-color: #f1f1f1;
+	 text-align: center;
+}
+ /*================end register styling================*/
+
+  /*================starting login styling================*/
+      form{
+      	 border:3px solid #f1f1f1;
+      }
+
+    
+   /*================end login styling================*/
