@@ -305,6 +305,11 @@ input[type=submit]:hover {
 	padding-right: 400px;
 	padding-left: 400px;
 }
+.top{padding-right: 400px;
+	padding-left: 400px;
+      background-color:#f2f2f2 ;
+       }
+  
 
 #container{
 	 padding-right:400px;
