@@ -11,6 +11,7 @@
    <div class="bad">
       <a href="login.html">login</a>
      <a href="register.html">Register</a>
+     <a href="update.html">update</a>
      <a href="show.html">show  meals</a>
       <a href="post.html">Post meal</a>
       <a href="category.html">Catergories</a>
@@ -20,16 +21,28 @@
    	<!--navbar-->
 
   <div class="container">
-   <form action="action_page.php">
+   <form action="action_page.php" action="method">
     <label for="title">Title</label><br><br>
-    <input type="text" id="title" name="title" placeholder="Your title">
+    <select>
+    <option value="Beef and Rice">Beef and Rice</option>
+     <option value="Meat and Banana"> Meat and Banana</option>
+     <option value="Irish Potato">Irish Potato</option>
+      <option value="Hot Tea">Hot Tea</option>
+      <option value="Warm subs">Warm soup</option>
+      <option value="Hot soup">Hot soup</option>
+     <option value="Pork">Pork</option>
+     <option value="Fruits">Fruits</option>
+     <option value="Beans and Chapat">Beans and Chapat</option>
+     <option value="Vegatables">Vegatables</option>
+     <option value="Hot soup and millet">Hot soup and millet</option>
+ </select>
 
    	<label for="price">Price</label>
     <input type="number" id="price" name="price" placeholder="Your  price"><br><br>
 
 
      <label for="description">Description</label>
-    <textarea id="description" name="description" placeholder="Write something.." style="height:200px"></textarea>
+    <textarea id="description" name="description" placeholder="Write something.." style="height:200px; width: 100%;"></textarea>
 
     <label for="text">Meal photo</label><br><br>
     <input type="file" value="post">
